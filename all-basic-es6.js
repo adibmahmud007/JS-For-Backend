@@ -27,3 +27,23 @@ function add( num1 , num2=0){
 add(3,5);
 add(4);//here the ans will be 4 only
 add();//here the ans will be NaN because we didnt provide any default value for num1
+
+/**
+ * Template string, multiple line string, dynamic string
+ * if we want to do above thing we have to use backticks(``) 
+ */
+
+const name= 'hello my name is adib\n Iam a student'// now if we want to make this line break or want
+                                                  //to go to the next line then we have to use /n
+
+console.log(name);
+/**
+ * but we can use backtick and get this dont without all the hassle
+ * we can simply do the above thing using backtick
+ */
+const addition= `here iam adding ${a} and 
+${b} and the result will be 
+${a+b}`;//we have also made this a dynamic string;
+console.log(addition);
+
+
