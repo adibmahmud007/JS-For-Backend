@@ -38,6 +38,7 @@ const name= 'hello my name is adib\n Iam a student'// now if we want to make thi
 
 console.log(name);
 /**
+ * 
  * but we can use backtick and get this dont without all the hassle
  * we can simply do the above thing using backtick
  */
