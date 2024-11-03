@@ -27,5 +27,9 @@ const friends=['adib','tawhid','nijhu','hoga'];
 
 const length=friends.map(frnd=> frnd.length); // here frnd is each element of arrray and it is getting the length of each elemnt of array
 const firstChar=friends.map(frnd=> frnd[0]);//here frnd is each element of the array and frnd[0] is getting the first character of each element
+
+const oddFriends=friends.filter(frnd=> frnd.length % 2 ===1);
+console.log(oddFriends);
+
 console.log(firstChar)
 console.log(length)
